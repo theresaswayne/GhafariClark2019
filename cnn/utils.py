@@ -48,8 +48,9 @@ def augment(images, labels, num_noisy_imgs=7):
 def load_hsyaa(resize=True, add_noise=True, vectorize=False, only_test=False):
     #path = DIR + '/../../../HSYAA_training_images/hsyaa_5Class_Tr1000_Te180_60x60_good/'
     #path ='/home/mghafari/github/HSYAA_training_images/hsyaa_5Class_Tr1000_Te180_60x60_good/'
-    path = DIR + '/../../../HSYAA_training_images/hsyaa_5Class_Tr1000_Te180_60x60_good/'
+    #path = DIR + '/../../../HSYAA_training_images/hsyaa_5Class_Tr1000_Te180_60x60_good/'
    # path ='/home/mghafari/github/HSYAA_training_images/hsyaa_5Class_Tr1000_Te180_60x60_good/'
+    path = DIR + '/../data/'
 
     
     for loc in ['training', 'test']:
